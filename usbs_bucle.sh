@@ -39,6 +39,9 @@ do
         mkdir /mnt/temp_usbs_writer > /dev/null
     fi
 
-    echo $USBS
+    USBS_ARRAY=($USBS)
+    
+
+    echo ${USBS_ARRAY[0]}
     CONTINUE=false
 done
