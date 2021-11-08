@@ -41,5 +41,4 @@ then
     ls /run/media/verdx/pen
 else
 	echo "error"
-fi
-    
+fi   
